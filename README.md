@@ -37,9 +37,9 @@ The USGS [NLDI API](https://labs.waterdata.usgs.gov/api/nldi/swagger-ui.html) re
 
 Water sustainability requires protecting the groundwater and sub-surface aquifer from dangerous / toxic pollutants. [Aquagenuity](https://aquagenuity.com/) helps everyday people monitor water quality in their community. The [Aquagenuity Developer API](https://aquagenuity.com/developer) provides water quality reports for many USA ZipCodes.
 
-The following figure shows the Atlanta watershed dashboard created from Example 2:
+The following figure shows the Ridgewood NJ watershed dashboard:
 
-![Node-RED Atlanta Watershed dashboard](images/Node-RED-Atlanta-Watershed-dashboard.png)
+![Node-RED-Ridgewood-Watershed-flow](images/Node-RED-Ridgewood-Watershed-flow.png)
 
 ## Learning objectives
 
