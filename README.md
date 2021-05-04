@@ -26,6 +26,8 @@ We are initially focusing on the development of a starter kit that will enable t
 
 Explore more ideas [here](https://github.com/Call-for-Code/Solution-Starter-Kit-Water-2021#solution-ideas)
 
+## Tutorial 
+
 This tutorial is part of the [2021 Call for Code Global Challenge](https://developer.ibm.com/callforcode/).
 
 The example Node-RED flows and dashboards can help you build a water quality dashboard using GeoJSON. After completing this tutorial, you will be ready to modify these example flows and dashboards to create your own map and data visualization solution.
@@ -55,7 +57,7 @@ In this tutorial, you will:
 
 ## Prerequisites
 
-<sidebar>**[Node-RED Essentials](/videos/node-red-essentials)** <p>Use the videos in this playlist to help you learn the basics of building Node-RED flows.</p></sidebar>
+<sidebar>**[Node-RED Essentials](https://developer.ibm.com/videos/node-red-essentials/)** <p>Use the videos in this playlist to help you learn the basics of building Node-RED flows.</p></sidebar>
 
 * [Install Node-RED](https://nodered.org/docs/getting-started/) on your system or in IBM Cloud. You can create and deploy these flows and dashboards to [IBM Cloud](https://developer.ibm.com/dwwi/jsp/register.jsp?eventid=cfc2021challenge) by [creating a Node-RED Starter application](/tutorials/how-to-create-a-node-red-starter-application/).
 
