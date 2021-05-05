@@ -4,9 +4,9 @@
 
 - Login/Sign Up for IBM Cloud: https://ibm.biz/NodeRedCleanWater
 
-- Hands-On Guide:https://ibm.biz/NRCleanWater-Guide
+- Hands-On Guide: https://ibm.biz/NRCleanWater-Guide
 
-- Slides:https://fawazsiddiqi.github.io/CFC-Water-Ridgewood
+- Slides: https://fawazsiddiqi.github.io/CFC-Water-Ridgewood
 
 - Workshop Replay: https://www.crowdcast.io/e/water-quality/
 
