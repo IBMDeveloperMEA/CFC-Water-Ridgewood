@@ -1,5 +1,15 @@
 # Clean water and sanitation - Build a flow that displays the Ridgewood NJ watershed on a map
 
+## Workshop Resources
+
+- Login/Sign Up for IBM Cloud: https://ibm.biz/NodeRedCleanWater
+
+- Hands-On Guide:https://ibm.biz/NRCleanWater-Guide
+
+- Slides:https://fawazsiddiqi.github.io/CFC-Water-Ridgewood
+
+- Workshop Replay: https://www.crowdcast.io/e/water-quality/
+
 ## What is the problem?
 
 Water is the natural resource that is most threatened by climate change and is a prerequisite for life on earth. According to the World Health Organization, 2.2 billion people around the world do not have safely managed drinking water services, 4.2 billion people do not have safely managed sanitation services, and 3 billion people lack basic handwashing facilities. These services are critical in preventing the spread of COVID-19 and other diseases. Even in areas that have these services, there are vast inequalities in the accessibility, availability, and quality of the services. 
@@ -25,6 +35,10 @@ To encourage optimal water choices by consumers and local governments and to inc
 We are initially focusing on the development of a starter kit that will enable these channels to be developed to their fullest potential.
 
 Explore more ideas [here](https://github.com/Call-for-Code/Solution-Starter-Kit-Water-2021#solution-ideas)
+
+## Architecture
+
+![Architecture](images/architecture-diagram.png)
 
 ## Tutorial 
 
@@ -59,7 +73,8 @@ In this tutorial, you will:
 
 <sidebar>**[Node-RED Essentials](https://developer.ibm.com/videos/node-red-essentials/)** <p>Use the videos in this playlist to help you learn the basics of building Node-RED flows.</p></sidebar>
 
-* [Install Node-RED](https://nodered.org/docs/getting-started/) on your system or in IBM Cloud. You can create and deploy these flows and dashboards to [IBM Cloud](https://developer.ibm.com/dwwi/jsp/register.jsp?eventid=cfc2021challenge) by [creating a Node-RED Starter application](/tutorials/how-to-create-a-node-red-starter-application/).
+* Login/Sign Up for IBM Cloud [here](https://developer.ibm.com/dwwi/jsp/register.jsp?eventid=cfc2021challenge&utm_medium=Inpersondirected&utm_content=000039JL&utm_term=10008917&utm_id=May2021-callforcodebuildawaterqualitydashboardwithgeojsonandnode-red-eventid-606ebc8ea197ff40e061baee-global-devadvgrp-dubai-hybrid-workshop-dubai-cfc2021challenge)
+* [Install Node-RED](https://nodered.org/docs/getting-started/) on your system or in IBM Cloud. You can create and deploy these flows and dashboards to [IBM Cloud](https://developer.ibm.com/dwwi/jsp/register.jsp?eventid=cfc2021challenge&utm_medium=Inpersondirected&utm_content=000039JL&utm_term=10008917&utm_id=May2021-callforcodebuildawaterqualitydashboardwithgeojsonandnode-red-eventid-606ebc8ea197ff40e061baee-global-devadvgrp-dubai-hybrid-workshop-dubai-cfc2021challenge) by [creating a Node-RED Starter application](/tutorials/how-to-create-a-node-red-starter-application/).
 
 * [Add the following nodes](https://nodered.org/docs/user-guide/runtime/adding-nodes) to your Node-RED palette:
 
@@ -134,3 +149,17 @@ https://aquagenuity.com/GetWaterScore
 The `GetWaterScore` API replies with a json object and array of contaminants in the water for that Zip Code. It also includes the EPA toxin limits and health risks of the toxins. Note the units of the returned values. If you have any questions about the API, [contact Aquagenuity](mailto:hello@aquagenuity.com).
 
 For this tutorial, the chemical toxins found in the water are displayed in a Node-RED table. If the toxins exceed the EPA limits, the table highlights the chemical in red and, when selected, will popup an informational dialog about the health risks of that toxin. USGS also publishes [Water Quality Data](https://www.waterqualitydata.us/portal/)
+
+## Final Output 
+
+![Node-RED-Ridgewood-Watershed-dashboard](images/Node-RED-Ridgewood-Watershed-dashboard.png)
+
+## Workshop Resources
+
+- Login/Sign Up for IBM Cloud: https://ibm.biz/NodeRedCleanWater
+
+- Hands-On Guide:https://ibm.biz/NRCleanWater-Guide
+
+- Slides:https://fawazsiddiqi.github.io/CFC-Water-Ridgewood
+
+- Workshop Replay: https://www.crowdcast.io/e/water-quality/
