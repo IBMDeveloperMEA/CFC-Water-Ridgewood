@@ -1,6 +1,5 @@
 # Clean water and sanitation - Build a flow that displays the Ridgewood NJ watershed on a map
 
-
 ## Workshop Resources
 
 - Login/Sign Up for IBM Cloud: https://ibm.biz/NodeRedCleanWater
